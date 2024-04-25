@@ -1,12 +1,14 @@
 import './App.css'
+import Cart from './components/Cart'
+import Counter from './components/Counter'
 
 function App() {
 
 
   return (
     <>
-    <h1 className='mb-4'>Hello World!</h1>
-    <p>Fatima Muskan</p>
+    <Counter/>
+    <Cart></Cart>
     </>
 
   )
