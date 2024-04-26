@@ -1,14 +1,18 @@
 import './App.css'
-import Cart from './components/Cart'
-import Counter from './components/Counter'
+import LoginClassForm from './components/LoginClassForm'
+import Loginform from './components/Loginform'
 
 function App() {
 
 
   return (
     <>
-    <Counter/>
-    <Cart></Cart>
+    <section className='flex flex-col gap-10'>
+    <Loginform></Loginform>
+    <LoginClassForm></LoginClassForm>
+ 
+    </section>
+
     </>
 
   )
